@@ -4,25 +4,32 @@
     padding: 0;
 }
 
-header .container {
-    max-width: 1440px;
-    margin-left: auto;
-    margin-right: auto;
-
-    display: flex;
-    justify-content: space-between;
-    padding: 55px 135px;
+body {
+    color: #fff;
 }
 
 header {
     background-color: #07203F;
+    border-bottom: 1px solid #fff;
+}
+
+.container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 55px 135px;
+    font-size: 36px;
 }
 
 .nickname {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     color: #fff;
-    font-size: 36px;
     font-weight: 700;
 }
 
@@ -36,5 +43,60 @@ header {
     font-family: 'Inter', sans-serif;
     color: #fff;
     text-transform: uppercase;
-    font-size: 36px;
+}
+
+/************************************* About me *********************************/
+
+.about-me {
+    background: #07203F;
+    color: #D9D9D9;
+}
+
+.about-me {
+    background: #07203F;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 135px 135px 150px 135px;
+}
+
+.about-me-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4em;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.about-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.25em;
+    max-width: 605px;
+}
+
+.about-button {
+    display: flex;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #000;
+    background-color: #D9D9D9;
+    border-radius: 2.5em;
+    max-width: 605px;
+    border: none;
+    text-transform: uppercase;
+    padding: 28px 0;
+}
+
+.about-photo {
+    border-radius: 50%;
+    border-bottom: white 5px solid;
 }
